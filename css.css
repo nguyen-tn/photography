@@ -1,0 +1,116 @@
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1, h3, p {
+	padding: 5px;
+	margin: 5px;
+}
+
+ul.list {
+	padding-left: 25px;
+	list-style-type: disc;
+}
+
+table {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+#menubar {
+	margin: 200px;
+	display: inline;
+
+}
+
+.right {
+	float: right;
+	height:100%;
+	width:20%;
+	padding: 20px;
+	border: 2px solid black;
+	margin: 5px;
+}
+
+.left {
+	float: left;
+}
+
+/*======== Navbar ========*/
+
+ul.menulist {
+	list-style-type: none;
+	border: 2px solid black;
+	background-color: grey;
+	overflow: hidden;
+	font-size: 1.2em;
+	color: black;
+	margin: 5px;
+}
+
+li.menuitem {
+	text-align: center;
+	float: left;
+	margin: 2px;
+}
+
+li.menuitem a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+li.menuitem a.active {
+	color: white;
+	background-color:blue;
+}
+
+li.menuitem a:hover {
+	background-color:blue;
+}
+
+/*======== Gallery ========*/
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width:400px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	padding: 5px;
+	width: 100%;
+	height: auto;
+}
+
+div.description {
+	padding: 15px;
+	text-align: center;
+}
+
+div.news {
+	margin: 5px;
+	border: 1px solid black;
+	float: left;
+	width: auto;
+	padding: 5px;
+}
+#footer {
+	width: 100%;
+	border-top: 2px solid black;
+	text-align: center;
+	clear: both;
+
+}
